@@ -4,6 +4,22 @@
   "description": "Pre-deployment checker and error fixer for Vercel",
   "type": "module",
   "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th3on7in3gam3r/VercelGuard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/th3on7in3gam3r/VercelGuard/issues"
+  },
+  "homepage": "https://github.com/th3on7in3gam3r/VercelGuard#readme",
+  "keywords": [
+    "vercel",
+    "cli",
+    "devtools",
+    "nextjs",
+    "deployment",
+    "preflight"
+  ],
   "bin": {
     "vercelguard": "./dist/index.js"
   },
@@ -33,6 +49,9 @@
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT"
 }
