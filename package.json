@@ -21,7 +21,7 @@
     "preflight"
   ],
   "bin": {
-    "vercelguard": "./dist/index.js"
+    "vercelguard": "dist/index.js"
   },
   "files": [
     "dist"
